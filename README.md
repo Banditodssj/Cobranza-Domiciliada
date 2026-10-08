@@ -1,25 +1,22 @@
-# Cobranza Domiciliada - Layouts Bancarios
+# Direct Debit Collections - Bank Layouts
 
-> 🚧 Work in Progress para futuras actualizaciones.
+Full Stack application for managing bank layouts used in direct debit collection processes.
 
-Aplicación Full Stack para la administración de layouts bancarios utilizados
-en procesos de cobranza domiciliada.
+## Current Features
 
-## Funcionalidades actuales
+- View bank layouts
+- Search by name
+- Filter by bank
+- Filter by status
+- Create layouts
+- View layout details
+- Edit layouts
+- Copy existing layouts
+- Confirmation before copying layouts
+- Success and error notifications
+- Prevention of duplicate operations during processing
 
-- Consulta de layouts bancarios
-- Búsqueda por nombre
-- Filtro por banco
-- Filtro por estatus
-- Creación de layouts
-- Consulta de detalle
-- Edición de layouts
-- Copia de layouts existentes
-- Confirmación antes de realizar copias
-- Notificaciones de éxito y error
-- Prevención de operaciones duplicadas durante el procesamiento
-
-## Tecnologías
+## Technologies
 
 ### Backend
 - C#
@@ -35,15 +32,15 @@ en procesos de cobranza domiciliada.
 - CSS
 - Fetch API
 
-### Base de datos
+### Database
 - MySQL
 - Docker
 
-## Arquitectura
+## Architecture
 
 React → ASP.NET Core Web API → Entity Framework Core → MySQL
 
-## Estructura del proyecto
+## Project Structure
 
 ```text
 Tesoreria/
