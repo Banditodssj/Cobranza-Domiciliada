@@ -1,7 +1,5 @@
 # Direct Debit Collections - Bank Layouts
-# Cobranza Domiciliada - Layouts Bancarios
-
-[🇺🇸 English](README.md)
+[🇪🇸 Español](README-ES.md)
 
 Full Stack application for managing bank layouts used in direct debit collection processes.
 
